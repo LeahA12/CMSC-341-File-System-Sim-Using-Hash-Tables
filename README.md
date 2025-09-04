@@ -1,7 +1,7 @@
 ## AUTHORING: 
 * Leah Arfa
 * UMBC, CMSC 341 (Data Structures), Fall 2024
-* ...
+* December 12, 2024
 
 ## PURPOSE OF SOFTWARE: 
 This C++ project simulates a file system using a hash table with functions for file management and rehashing.
