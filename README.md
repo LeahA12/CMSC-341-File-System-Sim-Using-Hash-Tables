@@ -14,7 +14,7 @@ This C++ project simulates a file system using a hash table. This project resolv
 * ```mytest.cpp```: ...
 
 ## CLASSES: 
-* ```FileSys```: A class that stores and manages ```File``` objects within a hash table. It includes two probing methods: linear and double hashing. ...
+* ```FileSys```: A class that stores and manages ```File``` objects within a hash table, using two probing methods: linear and double hashing. It also employs incremental hashing which allows the hash table to dynamically resize itself. .
 * ```File```: A helper class for the ```FileSys``` data structure, providing basic getters and setters for file attributes - name, disk block, and whether the file is currently in use. A ```File``` object is represented as a single entry in the ```FileSys``` hash table.
 * ```Random```: A utility class used to generate varied test data for the ```FileSys``` class, like random strings and random integers to populate the file system.
 * ```Tester```: A class that verifies the correctness of the ```FileSys``` class implementation.
