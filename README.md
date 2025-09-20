@@ -24,10 +24,12 @@ This C++ project simulates a file system using a hash table. This project resolv
     ```
     g++ -g driver.cpp filesys.cpp -o driver
     ```
+    
 2.  **Execution:** Run the generated executable from the terminal using the command:
     ```
     ./driver
     ```
+    
 3. **Output Verification:** The program will output the contents of the ```correctOutputForDriver.txt``` file.
 
 ## TESTING METHODOLOGY: 
@@ -35,10 +37,12 @@ This C++ project simulates a file system using a hash table. This project resolv
     ```
     g++ -g mytest.cpp filesys.cpp -o test
     ```
+    
 2.  **Execution:** Run the generated executable from the terminal using the command:
     ```
     ./test
     ```
+    
 3. **Output Verification:** The program's output will display either "passed!" or "failed." for each test function in the ```Tester``` class.
 
 ## ADDITIONAL INFORMATION:
