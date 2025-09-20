@@ -31,16 +31,14 @@ This C++ project simulates a file system using a hash table. This project resolv
 3. **Output Verification:** The program will output the contents of the ```correctOutputForDriver.txt``` file.
 
 ## TESTING METHODOLOGY: 
-1.  **Compilation:** Compile the ```mytest.cpp``` file and ```filesys.cpp``` file using the ```g++``` compiler:
+1. **Compilation:** Compile the ```mytest.cpp``` file and ```filesys.cpp``` file using the ```g++``` compiler:
     ```
     g++ -g mytest.cpp filesys.cpp -o test
     ```
-    
-2.  **Execution:** Run the generated executable from the terminal using the command:
+2. **Execution:** Run the generated executable from the terminal using the command:
     ```
     ./test
     ```
-    
 3. **Output Verification:** The program's output will display either "passed!" or "failed." for each test function in the ```Tester``` class.
 
 ## ADDITIONAL INFORMATION:
