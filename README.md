@@ -20,16 +20,14 @@ This C++ project simulates a file system using a hash table. This project resolv
 * ```Tester```: A class that verifies the correctness of the ```FileSys``` class implementation.
 
 ## BUILD INSTRUCTIONS: 
-1.  **Compilation:** Compile the ```driver.cpp``` file and ```filesys.cpp``` file using the ```g++``` compiler:
+1. **Compilation:** Compile the ```driver.cpp``` file and ```filesys.cpp``` file using the ```g++``` compiler:
     ```
     g++ -g driver.cpp filesys.cpp -o driver
     ```
-    
-2.  **Execution:** Run the generated executable from the terminal using the command:
+2. **Execution:** Run the generated executable from the terminal using the command:
     ```
     ./driver
     ```
-    
 3. **Output Verification:** The program will output the contents of the ```correctOutputForDriver.txt``` file.
 
 ## TESTING METHODOLOGY: 
